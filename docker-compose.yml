@@ -3,7 +3,7 @@ portainer:
   container_name: "portainer-app"
   ports:
     - "9000:9000"
-  voloumes:
+  volumes:
     - ./data:/data
   networks:
     - local
