@@ -5,5 +5,3 @@ portainer:
     - "9000:9000"
   volumes:
     - ./data:/data
-  networks:
-    - local
